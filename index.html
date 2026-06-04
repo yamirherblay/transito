@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen Teórico de Conducción - Cuba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- HOME -->
+    <div id="screen-home">
+      <div style="text-align:right;padding:4px 0">
+        <button class="theme-toggle" id="theme-btn-home" onclick="toggleTheme()">&#x1F319;</button>
+      </div>
+      <div class="hero">
+        <h1>Exámenes Variados</h1>
+        <p class="sub">para el Teórico de Conducción en Cuba</p>
+        <div class="badge">Basado en la Ley 109 · Código de Seguridad Vial</div>
+        <p class="desc">20 preguntas por examen · 3 opciones · 5 pts c/u · Aprobado &ge; 70</p>
+        <button class="btn" onclick="startExam()">Comenzar</button>
+        <div class="stats" id="stats-display">
+          <span class="ok">✅ 0</span> <span class="ko">❌ 0</span>
+        </div>
+        <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
+      </div>
+    </div>
+
+    <!-- EXAM -->
+    <div id="screen-exam" style="display:none">
+      <div class="exam-header">
+        <span class="title">Examen Teórico</span>
+        <div class="right">
+          <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()">&#x1F319;</button>
+          <button class="btn-danger" onclick="closeExam()">✕ Cerrar</button>
+        </div>
+      </div>
+      <div class="progress-wrap">
+        <div class="progress-bar-bg"><div class="progress-bar" id="progress-bar"></div></div>
+        <div class="progress-text" id="progress-text">0/20</div>
+      </div>
+      <div id="exam-content"></div>
+      <div class="exam-footer">
+        <button class="btn-sm" id="prev-btn" onclick="prevPage()">« Anterior</button>
+        <span class="page-info" id="page-info">Página 1/4</span>
+        <button class="btn-sm" id="next-btn" onclick="nextPage()">Siguiente »</button>
+        <button class="btn btn-eval" id="eval-btn" onclick="evaluar()" style="display:none">Evaluar</button>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="screen-results" style="display:none">
+      <div class="result-box">
+        <div class="label">Resultado</div>
+        <div class="score" id="result-score">0/100</div>
+        <div id="result-pass" class="pass">APROBADO</div>
+        <div class="result-stats" id="result-stats"></div>
+        <div class="sub">Solo se muestran las incorrectas y sin responder</div>
+      </div>
+      <div id="result-details"></div>
+      <div style="text-align:center;padding:24px 0">
+        <button class="btn" onclick="newExam()">Nuevo Examen</button>
+      </div>
+    </div>
+
+    <!-- MODAL CLOSE -->
+    <div id="modal-close">
+      <div class="modal-box">
+        <p>¿Estás seguro?<br>Se perderán tus respuestas y la puntuación actual.</p>
+        <div class="btns">
+          <button class="btn btn-eval" onclick="confirmClose(true)">Salir</button>
+          <button class="btn btn-sm" onclick="confirmClose(false)">Seguir</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="preguntas.js"></script>
+  <script src="preguntas_combo.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
