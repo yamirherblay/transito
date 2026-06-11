@@ -58,12 +58,15 @@ function show(id) {
   });
   if (id === 'home') updateStatsUI();
 
-  /* Tab bar */
+  /* Tab bar + theme toggle */
   const bar = document.getElementById('tab-bar');
+  const themeBtn = document.getElementById('theme-btn');
   if (id === 'exam') {
     bar.classList.add('hidden');
+    themeBtn.classList.add('hidden');
   } else {
     bar.classList.remove('hidden');
+    themeBtn.classList.remove('hidden');
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     const active = document.querySelector(`.tab[data-screen="${id}"]`);
     if (active) active.classList.add('active');
