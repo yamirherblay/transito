@@ -15,15 +15,18 @@ function toggleTheme() {
   const theme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   html.setAttribute('data-theme', theme);
   localStorage.setItem('theme', theme);
-  document.getElementById('theme-btn').textContent = theme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
-  document.getElementById('theme-btn-home').textContent = theme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+  setThemeIcons(theme);
 }
 
 function applyTheme() {
   const theme = localStorage.getItem('theme') || 'light';
   document.documentElement.setAttribute('data-theme', theme);
-  document.getElementById('theme-btn').textContent = theme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
-  document.getElementById('theme-btn-home').textContent = theme === 'dark' ? '\u2600\uFE0F' : '\uD83C\uDF19';
+  setThemeIcons(theme);
+}
+
+function setThemeIcons(theme) {
+  const icon = theme === 'dark' ? 'light_mode' : 'dark_mode';
+  document.getElementById('theme-btn').innerHTML = '<span class="material-symbols-outlined">' + icon + '</span>';
 }
 
 /* Stats */
@@ -37,7 +40,7 @@ function getStats() {
 function updateStatsUI() {
   const s = getStats();
   const el = document.getElementById('stats-display');
-  if (el) el.innerHTML = '<span class="ok">\u2705 ' + s.a + '</span> <span class="ko">\u274C ' + s.d + '</span>';
+  if (el) el.innerHTML = '<span class="ok"><span class="material-symbols-outlined">check_circle</span> ' + s.a + '</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> ' + s.d + '</span>';
 }
 
 function resetStats() {
@@ -50,9 +53,21 @@ function resetStats() {
 /* Screens */
 function show(id) {
   ['home','exam','results'].forEach(s => {
-    document.getElementById('screen-' + s).style.display = s === id ? 'block' : 'none';
+    const el = document.getElementById('screen-' + s);
+    el.style.display = s === id ? '' : 'none';
   });
   if (id === 'home') updateStatsUI();
+
+  /* Tab bar */
+  const bar = document.getElementById('tab-bar');
+  if (id === 'exam') {
+    bar.classList.add('hidden');
+  } else {
+    bar.classList.remove('hidden');
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    const active = document.querySelector(`.tab[data-screen="${id}"]`);
+    if (active) active.classList.add('active');
+  }
 }
 
 function closeExam() {
@@ -142,6 +157,15 @@ function render() {
   const answered = examQuestions.filter(q => q.selected !== null).length;
   document.getElementById('progress-bar').style.width = (answered / TOTAL * 100) + '%';
   document.getElementById('progress-text').textContent = answered + '/' + TOTAL;
+
+  const dots = document.getElementById('exam-dots');
+  dots.innerHTML = '';
+  examQuestions.forEach((q, i) => {
+    const dot = document.createElement('span');
+    dot.className = 'dot' + (q.selected !== null ? ' done' : '');
+    dot.textContent = i + 1;
+    dots.appendChild(dot);
+  });
 }
 
 function select(idx, val) {
@@ -187,7 +211,7 @@ function evaluar() {
   document.getElementById('result-score').textContent = score + '/100';
   document.getElementById('result-pass').textContent = passed ? 'APROBADO' : 'SUSPENDIDO';
   document.getElementById('result-pass').className = passed ? 'pass' : 'fail';
-  document.getElementById('result-stats').innerHTML = '<span class="ok">\u2705 ' + s.a + ' aprobados</span> <span class="ko">\u274C ' + s.d + ' desaprobados</span>';
+  document.getElementById('result-stats').innerHTML = '<span class="ok"><span class="material-symbols-outlined">check_circle</span> ' + s.a + ' aprobados</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> ' + s.d + ' desaprobados</span>';
 
   const list = document.getElementById('result-details');
   list.innerHTML = '';
@@ -209,6 +233,23 @@ function evaluar() {
 
 function newExam() {
   show('home');
+}
+
+function downloadLey() {
+  const a = document.createElement('a');
+  a.href = 'Ley109.pdf';
+  a.download = 'Ley109-CodigoSeguridadVial.pdf';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+function openAbout() {
+  document.getElementById('modal-about').classList.add('visible');
+}
+
+function closeAbout() {
+  document.getElementById('modal-about').classList.remove('visible');
 }
 
 applyTheme();

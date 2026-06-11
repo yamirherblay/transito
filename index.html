@@ -3,7 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Examen Teórico de Conducción - Cuba</title>
+
+  <title>LICENTEST — Examen Teórico de Conducción · Ley 109 Cuba</title>
+
+  <meta name="description" content="Prepárate para el examen teórico de conducción en Cuba con LICENTEST. 546 preguntas basadas en la Ley 109 · Código de Seguridad Vial. Simulacros aleatorios, retroalimentación detallada y estadísticas.">
+  <meta name="keywords" content="licencia de conducción cuba, examen teórico conducción, ley 109, código de seguridad vial, test de tránsito cuba, preguntas de tránsito cuba, licentest">
+  <meta name="author" content="INTENAVE">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="es">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://licentest-cuba.vercel.app">
+  <meta property="og:title" content="LICENTEST — Examen Teórico de Conducción · Ley 109 Cuba">
+  <meta property="og:description" content="546 preguntas basadas en la Ley 109 · Código de Seguridad Vial. Simulacros aleatorios con retroalimentación detallada.">
+  <meta property="og:image" content="https://licentest-cuba.vercel.app/licentest.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LICENTEST — Examen Teórico de Conducción · Ley 109 Cuba">
+  <meta name="twitter:description" content="546 preguntas basadas en la Ley 109 · Código de Seguridad Vial. Simulacros aleatorios con retroalimentación detallada.">
+  <meta name="twitter:image" content="https://licentest-cuba.vercel.app/licentest.png">
+
+  <!-- PWA / iOS -->
+  <meta name="theme-color" content="#1a3a6b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="LICENTEST">
+
+  <link rel="icon" type="image/png" href="licentest.png">
+  <link rel="canonical" href="https://licentest-cuba.vercel.app">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,17 +41,14 @@
 
     <!-- HOME -->
     <div id="screen-home">
-      <div style="text-align:right;padding:4px 0">
-        <button class="theme-toggle" id="theme-btn-home" onclick="toggleTheme()">&#x1F319;</button>
-      </div>
       <div class="hero">
-        <h1>Exámenes Variados</h1>
-        <p class="sub">para el Teórico de Conducción en Cuba</p>
+        <h1>LICENTEST</h1>
+        <p class="sub">Examen Teórico de Conducción en Cuba</p>
         <div class="badge">Basado en la Ley 109 · Código de Seguridad Vial</div>
         <p class="desc">20 preguntas por examen · 3 opciones · 5 pts c/u · Aprobado &ge; 70</p>
         <button class="btn" onclick="startExam()">Comenzar</button>
         <div class="stats" id="stats-display">
-          <span class="ok">✅ 0</span> <span class="ko">❌ 0</span>
+          <span class="ok"><span class="material-symbols-outlined">check_circle</span> 0</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> 0</span>
         </div>
         <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
       </div>
@@ -29,22 +56,24 @@
 
     <!-- EXAM -->
     <div id="screen-exam" style="display:none">
-      <div class="exam-header">
-        <span class="title">Examen Teórico</span>
-        <div class="right">
-          <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()">&#x1F319;</button>
-          <button class="btn-danger" onclick="closeExam()">✕ Cerrar</button>
+      <div class="exam-sticky">
+        <div class="exam-header">
+          <span class="title">Examen Teórico</span>
+          <div class="right">
+            <button class="btn-danger" onclick="closeExam()"><span class="material-symbols-outlined">close</span> Cerrar</button>
+          </div>
         </div>
-      </div>
-      <div class="progress-wrap">
-        <div class="progress-bar-bg"><div class="progress-bar" id="progress-bar"></div></div>
-        <div class="progress-text" id="progress-text">0/20</div>
+        <div class="progress-wrap">
+          <div class="progress-bar-bg"><div class="progress-bar" id="progress-bar"></div></div>
+          <div class="progress-text" id="progress-text">0/20</div>
+        </div>
+        <div id="exam-dots"></div>
       </div>
       <div id="exam-content"></div>
       <div class="exam-footer">
-        <button class="btn-sm" id="prev-btn" onclick="prevPage()">« Anterior</button>
+        <button class="btn-sm" id="prev-btn" onclick="prevPage()"><span class="material-symbols-outlined">chevron_left</span> Anterior</button>
         <span class="page-info" id="page-info">Página 1/4</span>
-        <button class="btn-sm" id="next-btn" onclick="nextPage()">Siguiente »</button>
+        <button class="btn-sm" id="next-btn" onclick="nextPage()">Siguiente <span class="material-symbols-outlined">chevron_right</span></button>
         <button class="btn btn-eval" id="eval-btn" onclick="evaluar()" style="display:none">Evaluar</button>
       </div>
     </div>
@@ -76,7 +105,43 @@
       </div>
     </div>
 
+    <!-- MODAL ABOUT -->
+    <div id="modal-about" onclick="if(event.target===this)closeAbout()">
+      <div class="modal-box">
+        <img src="licentest.png" alt="LICENTEST" style="width:80px;height:80px;margin-bottom:8px;">
+        <h2 style="font-size:1.3rem;margin-bottom:4px;">LICENTEST</h2>
+        <p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:16px;">Basado en la Ley 109 · Código de Seguridad Vial</p>
+        <hr style="border:none;border-top:1px solid var(--border);margin-bottom:16px;">
+        <p style="font-weight:700;margin-bottom:4px;">INTENAVE</p>
+        <p style="margin-bottom:16px;">
+          <a href="mailto:yamir.herblay@gmail.com" style="color:var(--primary);text-decoration:none;">yamir.herblay@gmail.com</a>
+        </p>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:20px;">Versión 1.0</p>
+        <button class="btn" onclick="closeAbout()">Cerrar</button>
+      </div>
+    </div>
+
   </div>
+
+  <!-- THEME TOGGLE -->
+  <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()"><span class="material-symbols-outlined">dark_mode</span></button>
+
+  <!-- TAB BAR -->
+  <div id="tab-bar">
+    <div class="tab active" data-screen="home" onclick="show('home')">
+      <span class="tab-icon"><span class="material-symbols-outlined">home</span></span>
+      <span class="tab-label">Inicio</span>
+    </div>
+    <div class="tab" id="tab-ley" onclick="downloadLey()">
+      <span class="tab-icon"><span class="material-symbols-outlined">description</span></span>
+      <span class="tab-label">Ley 109</span>
+    </div>
+    <div class="tab" id="tab-info" onclick="openAbout()">
+      <span class="tab-icon"><span class="material-symbols-outlined">info</span></span>
+      <span class="tab-label">Acerca de</span>
+    </div>
+  </div>
+
   <script src="preguntas.js"></script>
   <script src="preguntas_combo.js"></script>
   <script src="app.js"></script>

@@ -4134,5 +4134,1655 @@ window.PREGUNTAS = [
     ],
     "correcta": 1,
     "libro": "Glosario"
+  },
+  {
+    "id": 397,
+    "pregunta": "Circulas con niebla densa. ¿Qué luces debes utilizar?",
+    "opciones": [
+      "Luces de niebla o en su defecto las de cruce o cortas",
+      "Luces de carretera o largas para ver mejor",
+      "Luces de posición solamente"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 398,
+    "pregunta": "La calzada está resbaladiza por agua. ¿Qué debes hacer?",
+    "opciones": [
+      "Moderar la marcha y si es preciso detenerse",
+      "Aumentar la velocidad para perder menos tracción",
+      "Mantener la misma velocidad pero con más precaución"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 399,
+    "pregunta": "En caso de lluvia copiosa, ¿qué obligación tiene el conductor respecto a la velocidad?",
+    "opciones": [
+      "Moderar la velocidad y si es necesario detenerse",
+      "Encender las luces altas y continuar igual",
+      "No tiene obligación de reducir la velocidad"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 400,
+    "pregunta": "Si sufres un deslumbramiento por las luces de un vehículo que viene en sentido contrario, ¿qué debes hacer?",
+    "opciones": [
+      "Reducir la velocidad o detener la marcha",
+      "Encender las luces altas para que el otro las baje",
+      "Cerrar los ojos un instante y seguir"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 401,
+    "pregunta": "¿A qué distancia aproximada debes cambiar de luces largas a cortas ante un vehículo que se aproxima en sentido contrario?",
+    "opciones": [
+      "150 metros",
+      "50 metros",
+      "200 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 402,
+    "pregunta": "Circulas por una vía rural de noche. El vehículo que te precede está a menos de 50 metros. ¿Puedes usar las luces largas permanentemente?",
+    "opciones": [
+      "No, porque puedes deslumbrarlo por el espejo retrovisor",
+      "Sí, mientras no venga otro vehículo de frente",
+      "Sí, siempre que sea en carretera"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 403,
+    "pregunta": "Te acercas a una curva de visibilidad reducida de noche. ¿Qué debes hacer con las luces?",
+    "opciones": [
+      "Realizar cambios de luces a intervalos regulares",
+      "Mantener las luces cortas fijas",
+      "Apagar las luces momentáneamente"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 404,
+    "pregunta": "Tu vehículo sufre una avería en una vía rural. ¿A qué distancia detrás del vehículo debes colocar la señal de emergencia?",
+    "opciones": [
+      "30 metros",
+      "50 metros",
+      "10 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 405,
+    "pregunta": "En caso de avería en una vía rural con niebla densa, además de la señal triangular, ¿qué debes hacer?",
+    "opciones": [
+      "Encender las luces de estacionamiento o de posición",
+      "Encender las luces altas",
+      "Colocar piedras alrededor del vehículo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 406,
+    "pregunta": "¿Qué luces deben encenderse cuando un vehículo está inmovilizado por emergencia o avería?",
+    "opciones": [
+      "Las luces de emergencia o avería (intermitentes)",
+      "Las luces de carretera",
+      "Las luces de niebla"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 407,
+    "pregunta": "¿De qué color deben ser las luces de frenado de un vehículo?",
+    "opciones": [
+      "Rojo",
+      "Amarillo",
+      "Blanco"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 408,
+    "pregunta": "Las luces indicadoras de dirección de un vehículo deben ser de color:",
+    "opciones": [
+      "Amarillo",
+      "Rojo",
+      "Blanco"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 409,
+    "pregunta": "¿De qué color pueden ser las luces de niebla delanteras?",
+    "opciones": [
+      "Blanco o amarillo",
+      "Rojo o blanco",
+      "Azul o blanco"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 410,
+    "pregunta": "¿Cuándo está obligado el conductor a utilizar las luces de cruce o cortas dentro del perímetro urbano?",
+    "opciones": [
+      "Desde el anochecer hasta el amanecer, cuando la vía tenga iluminación suficiente",
+      "Solo cuando llueva",
+      "Únicamente en túneles"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 411,
+    "pregunta": "¿En qué caso puedes usar las luces de carretera o largas dentro del perímetro urbano?",
+    "opciones": [
+      "Cuando haya inutilización o avería del alumbrado público y no cause deslumbramiento",
+      "Siempre que sea de noche",
+      "Cuando circules a más de 60 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 412,
+    "pregunta": "¿Cuál es la distancia mínima a la que deben ser visibles las luces de posición y frenado traseras?",
+    "opciones": [
+      "300 metros",
+      "150 metros",
+      "100 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 413,
+    "pregunta": "¿Qué color deben tener los dispositivos reflectantes en la parte trasera de un vehículo?",
+    "opciones": [
+      "Rojo",
+      "Blanco",
+      "Amarillo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 414,
+    "pregunta": "Los dispositivos reflectantes de los remolques y semirremolques deben tener forma de:",
+    "opciones": [
+      "Triángulo equilátero",
+      "Círculo",
+      "Cuadrado"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 415,
+    "pregunta": "Cuando la superficie de la calzada está resbaladiza por grasa, arena o lodo, el conductor debe:",
+    "opciones": [
+      "Moderar la marcha y si es preciso detenerse",
+      "Aumentar la velocidad para pasar rápido",
+      "Hacer señales con las luces y continuar"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 416,
+    "pregunta": "En caso de niebla densa, ¿qué obligación tiene el conductor respecto a la velocidad?",
+    "opciones": [
+      "Moderar la marcha y si es preciso detenerse",
+      "Mantener la velocidad máxima permitida",
+      "Aumentar la velocidad para salir rápido de la niebla"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 417,
+    "pregunta": "¿Qué obligación tiene el conductor de cualquier vehículo de motor cuando circula de noche?",
+    "opciones": [
+      "Llevar encendidas las luces de acuerdo con lo establecido en el Código",
+      "Llevar solo las luces de posición",
+      "Llevar las luces intermitentes de emergencia"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 418,
+    "pregunta": "¿Qué distancia mínima debe mantener entre su vehículo y el que le precede, según la velocidad?",
+    "opciones": [
+      "5 metros por cada 15 km/h de velocidad",
+      "10 metros por cada 10 km/h de velocidad",
+      "3 metros por cada 20 km/h de velocidad"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 419,
+    "pregunta": "Circulas por una vía y ves nubes de polvo que reducen la visibilidad. ¿Qué debes hacer?",
+    "opciones": [
+      "Moderar la marcha y si es preciso detener la marcha",
+      "Cerrar las ventanillas y continuar igual",
+      "Aumentar la velocidad para salir rápido de la zona"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 420,
+    "pregunta": "¿Qué sistema de freno deben tener los remolques de más de 1500 kilogramos?",
+    "opciones": [
+      "Sistema de freno automático",
+      "Freno de inercia",
+      "Freno de mano"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 421,
+    "pregunta": "¿Qué dispositivo de freno deben tener los remolques de hasta 1500 kilogramos?",
+    "opciones": [
+      "Dispositivo de frenado de inercia",
+      "Freno automático",
+      "Freno de mano independiente"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 422,
+    "pregunta": "Según la Ley 109, ¿qué ocurre si un conductor profesional conduce bajo los efectos del alcohol?",
+    "opciones": [
+      "Se le suspende la licencia de conducción",
+      "Solo se le aplica una multa",
+      "Se le permite continuar si no hay accidente"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 423,
+    "pregunta": "¿Cuál es la tolerancia de alcohol para conductores de vehículos de carga o transporte colectivo de pasajeros?",
+    "opciones": [
+      "Cero tolerancia, cualquier nivel conlleva suspensión",
+      "Hasta 0.5 gramos por litro de sangre",
+      "Solo se sanciona si hay accidente"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 424,
+    "pregunta": "Si un conductor comete una infracción de tránsito bajo los efectos del alcohol, ¿cómo se sanciona la multa?",
+    "opciones": [
+      "Se duplica el valor de la multa",
+      "Se aplica la multa normal",
+      "Se triplica el valor de la multa"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 425,
+    "pregunta": "¿Está permitido ingerir bebidas alcohólicas dentro de un vehículo?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, siempre que el vehículo esté estacionado",
+      "Sí, si no es el conductor quien consume"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 426,
+    "pregunta": "¿Está permitido transportar bebidas alcohólicas abiertas en el habitáculo destinado al conductor y pasajeros?",
+    "opciones": [
+      "No, cuando es evidente que se está consumiendo",
+      "Sí, siempre que no las consuma el conductor",
+      "Sí, en cualquier circunstancia"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 427,
+    "pregunta": "¿Está prohibido conducir bajo los efectos de medicamentos que disminuyan la capacidad de conducción?",
+    "opciones": [
+      "Sí, está prohibido si producen disminución de la capacidad",
+      "No, los medicamentos están permitidos",
+      "Solo si son medicamentos controlados"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 428,
+    "pregunta": "¿Quién establece la reglamentación para determinar los niveles de concentración de alcohol en sangre?",
+    "opciones": [
+      "El Ministerio de Salud Pública",
+      "El Ministerio del Interior",
+      "La Comisión Nacional de Seguridad Vial"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 429,
+    "pregunta": "Si un conductor se niega a realizarse la prueba de alcoholemia, ¿qué consecuencia tiene?",
+    "opciones": [
+      "Suspensión de la licencia de conducción",
+      "Solo una multa",
+      "No tiene consecuencia si no hay accidente"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 430,
+    "pregunta": "Según el Glosario, ¿qué es el etilómetro o alcoholímetro?",
+    "opciones": [
+      "Medio técnico para medir la tasa o nivel de alcohol en el organismo",
+      "Un dispositivo para medir la velocidad del vehículo",
+      "Un equipo para medir la presión de los neumáticos"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 431,
+    "pregunta": "Según el Glosario, ¿qué es el aliento etílico?",
+    "opciones": [
+      "El aliento de una persona después de ingerir bebidas alcohólicas",
+      "Un tipo de prueba de alcoholemia",
+      "Un dispositivo para detectar alcohol"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 432,
+    "pregunta": "¿Está permitido conducir un vehículo cuando se está enfermo o agotado si constituye una amenaza para la circulación?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si es estrictamente necesario",
+      "Sí, siempre que se tenga la licencia vigente"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 433,
+    "pregunta": "¿Por cuánto tiempo se puede suspender la licencia de conducción por primera vez al superar el límite de puntos?",
+    "opciones": [
+      "De 1 a 3 meses",
+      "De 3 a 6 meses",
+      "De 6 meses a 1 año"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 434,
+    "pregunta": "Si un conductor recibe una segunda suspensión en un mismo año natural, ¿de cuánto tiempo es la suspensión?",
+    "opciones": [
+      "De 3 a 6 meses",
+      "De 1 a 3 meses",
+      "De 6 meses a 1 año"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 435,
+    "pregunta": "¿Cuánto dura la cancelación de la licencia si un conductor acumula 4 o más suspensiones en 2 años naturales?",
+    "opciones": [
+      "De 1 a 3 años",
+      "De 3 a 6 meses",
+      "De 6 meses a 1 año"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 436,
+    "pregunta": "¿Qué límite de puntos tiene un conductor novel respecto al límite general de puntos?",
+    "opciones": [
+      "Dos tercios (2/3) del límite general",
+      "El mismo límite general",
+      "La mitad (1/2) del límite general"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 437,
+    "pregunta": "¿Qué ocurre si un conductor novel es detectado conduciendo bajo los efectos del alcohol?",
+    "opciones": [
+      "Se le cancela la licencia de conducción",
+      "Solo se le suspende por 1 mes",
+      "Se le aplica una advertencia"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 438,
+    "pregunta": "¿A partir de qué edad los conductores deben presentar examen médico para mantener la licencia de conducción?",
+    "opciones": [
+      "65 años",
+      "70 años",
+      "60 años"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 439,
+    "pregunta": "Si un conductor no paga una multa de tránsito en más de 60 días, ¿qué consecuencia tiene?",
+    "opciones": [
+      "Suspensión de la licencia de 1 a 3 meses",
+      "Duplicación de la multa",
+      "Cancelación automática de la licencia"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 440,
+    "pregunta": "¿Cuánto dura la suspensión de la licencia para conductores profesionales o del sector estatal detectados con cualquier nivel de alcohol?",
+    "opciones": [
+      "De 6 meses a 1 año",
+      "De 1 a 3 meses",
+      "De 3 a 6 meses"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 441,
+    "pregunta": "¿Qué organismo es el encargado de emitir y revocar la licencia de conducción?",
+    "opciones": [
+      "El Ministerio del Interior (MININT)",
+      "El Ministerio del Transporte (MITRANS)",
+      "La Comisión Nacional de Seguridad Vial"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 442,
+    "pregunta": "¿Qué categoría de licencia de conducción se requiere para conducir motocicletas?",
+    "opciones": [
+      "Categoría A",
+      "Categoría B",
+      "Categoría C"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 443,
+    "pregunta": "¿Qué categoría de licencia se requiere para conducir vehículos de carga de más de 3500 kg?",
+    "opciones": [
+      "Categoría C",
+      "Categoría B",
+      "Categoría D"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 444,
+    "pregunta": "¿Qué categoría de licencia se requiere para conducir ómnibus de más de 8 plazas?",
+    "opciones": [
+      "Categoría D",
+      "Categoría C",
+      "Categoría B"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 445,
+    "pregunta": "¿Qué es el permiso de aprendizaje?",
+    "opciones": [
+      "Autorización temporal para aprender a conducir",
+      "Licencia provisional para conductores noveles",
+      "Un documento para vehículos de escuelas de conducción"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 446,
+    "pregunta": "¿Cuánto tiempo debe haber transcurrido desde la obtención de la licencia para que un conductor deje de ser considerado novel?",
+    "opciones": [
+      "2 años",
+      "1 año",
+      "3 años"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 447,
+    "pregunta": "Según el Glosario, ¿quién es el conductor novel?",
+    "opciones": [
+      "El que posee licencia de conducción con menos de 2 años de obtenida",
+      "El que acaba de comprar su primer vehículo",
+      "El menor de 21 años"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 448,
+    "pregunta": "¿Quién impone las multas por infracciones de tránsito?",
+    "opciones": [
+      "Los agentes de la Policía Nacional Revolucionaria",
+      "Los inspectores del Ministerio del Transporte",
+      "Los jueces municipales"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 449,
+    "pregunta": "¿Qué es la notificación preventiva en materia de infracciones de tránsito?",
+    "opciones": [
+      "Una advertencia sin multa ni puntos cuando no hay peligro real",
+      "Una multa reducida por pago voluntario",
+      "Una citación para comparecer ante el tribunal"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 450,
+    "pregunta": "¿Quién establece el valor de las multas por infracciones de tránsito?",
+    "opciones": [
+      "El Consejo de Ministros",
+      "El Ministerio del Interior",
+      "La Asamblea Nacional del Poder Popular"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 451,
+    "pregunta": "¿Pueden imponerse multas de tránsito mediante medios técnicos automatizados como radares o cámaras?",
+    "opciones": [
+      "Sí, y responde el propietario o tenedor del vehículo",
+      "No, solo pueden imponerlas los agentes presencialmente",
+      "Sí, pero solo en autopistas"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 452,
+    "pregunta": "Si una infracción de tránsito constituye además un delito, ¿cómo se sanciona?",
+    "opciones": [
+      "Se aplica la ley penal, sin perjuicio de la sanción administrativa",
+      "Solo se aplica la sanción administrativa",
+      "Solo se aplica la ley penal"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 453,
+    "pregunta": "¿Qué plazo tiene el interesado para impugnar el decomiso de un vehículo mediante recurso administrativo?",
+    "opciones": [
+      "10 días hábiles a partir de la notificación",
+      "15 días hábiles a partir de la notificación",
+      "30 días hábiles a partir de la notificación"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 454,
+    "pregunta": "¿Pueden los conductores reducir los puntos acumulados presentándose voluntariamente a examen?",
+    "opciones": [
+      "Sí, mediante exámenes teóricos y prácticos voluntarios",
+      "No, los puntos no se pueden reducir",
+      "Sí, pero solo pagando una tasa"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 455,
+    "pregunta": "¿Qué facultad tiene el Ministerio del Interior ante conductas reiteradas de conducir sin licencia?",
+    "opciones": [
+      "Retener temporalmente la licencia de circulación y placas del vehículo",
+      "Inmovilizar el vehículo definitivamente",
+      "Aumentar la multa al doble"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 456,
+    "pregunta": "¿Qué documento puede ocupar el agente a un conductor que conduce bajo los efectos del alcohol y posee licencia?",
+    "opciones": [
+      "La licencia de conducción",
+      "Las placas del vehículo",
+      "El permiso de circulación"
+    ],
+    "correcta": 0,
+    "libro": "VI"
+  },
+  {
+    "id": 457,
+    "pregunta": "La señal de 'Ceda el paso' tiene forma de:",
+    "opciones": [
+      "Triángulo invertido con borde rojo",
+      "Círculo con borde rojo",
+      "Octágono rojo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 458,
+    "pregunta": "La señal de 'PARE' o 'STOP' tiene forma de:",
+    "opciones": [
+      "Octágono de color rojo",
+      "Triángulo invertido con borde rojo",
+      "Círculo azul"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 459,
+    "pregunta": "La señal de 'Niños' indica la proximidad a:",
+    "opciones": [
+      "Un lugar frecuentado por niños, como escuelas o áreas de juego",
+      "Una zona de juegos infantiles",
+      "Un parque infantil exclusivamente"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 460,
+    "pregunta": "¿De qué color son las señales de orientación en autopistas?",
+    "opciones": [
+      "Verde",
+      "Azul",
+      "Blanca"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 461,
+    "pregunta": "¿De qué color son las señales de orientación en carreteras convencionales?",
+    "opciones": [
+      "Azul",
+      "Verde",
+      "Roja"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 462,
+    "pregunta": "Las señales del Grupo A (señales de peligro) tienen forma de:",
+    "opciones": [
+      "Triángulo con borde rojo",
+      "Círculo con borde rojo",
+      "Rectángulo azul"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 463,
+    "pregunta": "Las señales del Grupo B (señales de prohibición) tienen forma de:",
+    "opciones": [
+      "Círculo con borde rojo",
+      "Triángulo con borde rojo",
+      "Octágono rojo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 464,
+    "pregunta": "Las señales del Grupo C (señales de obligación) tienen forma de:",
+    "opciones": [
+      "Círculo de color azul",
+      "Círculo de color rojo",
+      "Triángulo de color azul"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 465,
+    "pregunta": "La marca vial de línea continua en el centro de la calzada significa:",
+    "opciones": [
+      "Prohibido adelantar",
+      "Permitido adelantar con precaución",
+      "Zona de estacionamiento prohibido"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 466,
+    "pregunta": "La marca vial de línea discontinua en el centro de la calzada significa:",
+    "opciones": [
+      "Permitido adelantar siempre que sea seguro",
+      "Prohibido adelantar",
+      "Prohibido estacionar"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 467,
+    "pregunta": "¿Qué indica una línea amarilla continua en el borde de la calzada?",
+    "opciones": [
+      "Prohibido estacionar",
+      "Zona de carga y descarga",
+      "Paso de peatones"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 468,
+    "pregunta": "El triángulo de peligro o señal de emergencia debe colocarse a:",
+    "opciones": [
+      "30 metros detrás del vehículo en línea recta",
+      "50 metros detrás del vehículo",
+      "10 metros detrás del vehículo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 469,
+    "pregunta": "¿Qué extensión comprende la 'Zona de silencio' alrededor de centros médicos?",
+    "opciones": [
+      "60 metros antes y 60 metros después",
+      "100 metros antes y 100 metros después",
+      "30 metros antes y 30 metros después"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 470,
+    "pregunta": "¿Qué indica una señal circular de color azul con una bicicleta blanca?",
+    "opciones": [
+      "Vía obligatoria para ciclistas",
+      "Prohibido el paso a ciclistas",
+      "Estacionamiento para bicicletas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 471,
+    "pregunta": "Una señal de forma triangular con borde rojo que muestra el dibujo de una curva indica:",
+    "opciones": [
+      "Curva peligrosa",
+      "Velocidad máxima en curva",
+      "Fin de curva"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 472,
+    "pregunta": "¿Está permitido transportar menores de 12 años en el asiento delantero de un vehículo?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, siempre que usen cinturón",
+      "Sí, si no hay asientos traseros disponibles"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 473,
+    "pregunta": "¿Cómo deben transportarse los menores de dos años en un vehículo?",
+    "opciones": [
+      "Con acompañante adulto o con aditamentos especiales",
+      "Solo en el asiento trasero",
+      "En cualquier asiento con cinturón"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 474,
+    "pregunta": "¿En cuántas filas máximo pueden circular los grupos organizados de niños por la acera?",
+    "opciones": [
+      "No más de dos filas",
+      "No más de cuatro filas",
+      "No más de tres filas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 475,
+    "pregunta": "¿Cuántos guías deben llevar los grupos organizados de niños?",
+    "opciones": [
+      "No menos de dos guías, uno delante y otro detrás",
+      "Un solo guía al frente",
+      "Un guía por cada 10 niños"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 476,
+    "pregunta": "¿Quién es responsable de detener el tránsito cuando un grupo organizado de niños cruza la vía?",
+    "opciones": [
+      "El guía delantero del grupo",
+      "El agente de tránsito más cercano",
+      "Cualquier adulto del grupo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 477,
+    "pregunta": "En zonas de niños (escuelas), ¿cuál es el límite de velocidad en zona urbana?",
+    "opciones": [
+      "40 km/h",
+      "50 km/h",
+      "30 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 478,
+    "pregunta": "En zonas de niños (escuelas), ¿cuál es el límite de velocidad en zona rural?",
+    "opciones": [
+      "60 km/h",
+      "50 km/h",
+      "40 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 479,
+    "pregunta": "¿Cuál es la velocidad máxima en carreteras para automóviles que arrastran un remolque?",
+    "opciones": [
+      "70 km/h",
+      "80 km/h",
+      "90 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 480,
+    "pregunta": "¿Cuál es la velocidad máxima en autopistas para automóviles que arrastran un remolque?",
+    "opciones": [
+      "80 km/h",
+      "70 km/h",
+      "90 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 481,
+    "pregunta": "¿Cuál es la longitud máxima permitida para que pueda circular un vehículo rígido?",
+    "opciones": [
+      "15 metros",
+      "18 metros",
+      "12 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 482,
+    "pregunta": "¿Cuál es la longitud máxima permitida para un vehículo articulado o conjunto de vehículos?",
+    "opciones": [
+      "18 metros",
+      "15 metros",
+      "20 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 483,
+    "pregunta": "¿Cuál es el ancho máximo permitido para un vehículo?",
+    "opciones": [
+      "2.60 metros",
+      "2.40 metros",
+      "3.00 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 484,
+    "pregunta": "¿Cuál es la altura máxima permitida para un vehículo?",
+    "opciones": [
+      "4 metros",
+      "3.50 metros",
+      "4.50 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 485,
+    "pregunta": "¿Está prohibido circular si la carga útil excede el peso por eje establecido?",
+    "opciones": [
+      "Sí, está prohibido",
+      "Sí, pero solo en zonas urbanas",
+      "No, si se paga un peaje especial"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 486,
+    "pregunta": "¿Está permitido transportar personas o carga en los guardafangos, capó o defensa del vehículo?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si es por poco tiempo",
+      "Sí, en vehículos todo terreno"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 487,
+    "pregunta": "¿Qué velocidad máxima deben respetar los equipos especializados de construcción, tractores y equipos agrícolas?",
+    "opciones": [
+      "20 km/h",
+      "40 km/h",
+      "50 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 488,
+    "pregunta": "¿Cuánto pueden sobresalir como máximo los bultos o cargas de las dimensiones del vehículo?",
+    "opciones": [
+      "50 centímetros",
+      "30 centímetros",
+      "70 centímetros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 489,
+    "pregunta": "¿Está permitido adelantar a otro vehículo en una curva de visibilidad reducida?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, con precaución",
+      "Sí, si no hay línea continua"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 490,
+    "pregunta": "¿Está permitido adelantar a otro vehículo en un paso a nivel?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si no viene el tren",
+      "Sí, cuando no hay barreras"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 491,
+    "pregunta": "¿Está permitido adelantar a otro vehículo en un túnel?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si hay buena visibilidad",
+      "Sí, en túneles de más de dos carriles"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 492,
+    "pregunta": "¿Está permitido adelantar en un cambio de rasante que impida ver la continuación de la vía?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si no hay vehículos en sentido contrario",
+      "Sí, con precaución"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 493,
+    "pregunta": "¿Está permitido adelantar en un paso de peatones señalizado con marca tipo cebra?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si no hay peatones cruzando",
+      "Sí, cuando el semáforo está en verde"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 494,
+    "pregunta": "¿Qué obligación tiene el conductor al abrir la portezuela del vehículo?",
+    "opciones": [
+      "Cerciorarse de que no constituye peligro para ocupantes y otros usuarios",
+      "Abrirla solo cuando el vehículo esté apagado",
+      "Avisar con la bocina antes de abrir"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 495,
+    "pregunta": "¿Está permitido utilizar teléfonos u otros medios de comunicación mientras el vehículo está en marcha?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si se usa con manos libres",
+      "Sí, pero solo para llamadas urgentes"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 496,
+    "pregunta": "Según la Ley 109, ¿está permitido usar equipos de audio a un volumen que impida la debida concentración en la conducción?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, es decisión del conductor",
+      "Solo si el vehículo está detenido"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 497,
+    "pregunta": "¿Por qué lado de la vía deben caminar los peatones fuera de los perímetros urbanos?",
+    "opciones": [
+      "Por la izquierda, de frente a la circulación de los vehículos",
+      "Por la derecha, en el mismo sentido de la circulación",
+      "Por cualquiera de los dos lados"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 498,
+    "pregunta": "Los grupos organizados de peatones deben circular por la calzada formados en:",
+    "opciones": [
+      "No más de cuatro filas",
+      "No más de dos filas",
+      "No más de seis filas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 499,
+    "pregunta": "¿Está prohibido a los peatones cruzar la calzada entre vehículos parqueados?",
+    "opciones": [
+      "Sí, está prohibido",
+      "No, si se hace con precaución",
+      "Sí, pero solo en vías urbanas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 500,
+    "pregunta": "¿Qué derecho tienen los peatones discapacitados al cruzar una intersección a nivel sin semáforo?",
+    "opciones": [
+      "Derecho de paso preferencial con respecto a los vehículos",
+      "El mismo derecho que cualquier peatón",
+      "Deben esperar a que no pasen vehículos"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 501,
+    "pregunta": "¿Por dónde deben descender o abordar los pasajeros un vehículo?",
+    "opciones": [
+      "Por el lado donde está la acera, paseo o borde de la calzada",
+      "Por cualquier puerta del vehículo",
+      "Solo por la puerta delantera"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 502,
+    "pregunta": "¿Está permitido a los pasajeros llevar parte del cuerpo u objetos fuera de la cabina del vehículo?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si es por poco tiempo",
+      "Sí, en vehículos descapotables"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 503,
+    "pregunta": "¿Está permitido arrojar objetos desde un vehículo hacia la vía?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si son objetos pequeños",
+      "Sí, en zonas rurales"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 504,
+    "pregunta": "¿Qué obligación tienen los pasajeros respecto a los medios de protección pasivos (cinturones)?",
+    "opciones": [
+      "Hacer uso de ellos",
+      "Solo usarlos en carretera",
+      "Usarlos solo si el conductor lo exige"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 505,
+    "pregunta": "¿Qué ocurre si un conductor novel recibe 3 o más suspensiones en 2 años naturales?",
+    "opciones": [
+      "Se le cancela la licencia de 1 a 3 años",
+      "Se le suspende por 6 meses",
+      "Se le aplica una multa"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 506,
+    "pregunta": "¿Cuál es la tolerancia de alcohol para los conductores noveles?",
+    "opciones": [
+      "Cero tolerancia, no pueden conducir bajo ningún nivel de alcohol",
+      "La misma que para cualquier conductor",
+      "Pueden conducir si no superan el límite legal"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 507,
+    "pregunta": "¿Cuándo se considera que un conductor deja de ser novel?",
+    "opciones": [
+      "Cuando han transcurrido 2 años desde que obtuvo la licencia",
+      "Cuando cumple 21 años",
+      "Cuando aprueba un examen práctico adicional"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 508,
+    "pregunta": "Las infracciones 'Muy Peligrosas' cometidas por conductores noveles:",
+    "opciones": [
+      "Tienen un efecto más grave por tener un límite de puntos reducido",
+      "Se sancionan igual que para cualquier conductor",
+      "Solo se aplican si hay accidente"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 509,
+    "pregunta": "¿Puede un conductor novel solicitar el permiso de aprendizaje para una categoría superior?",
+    "opciones": [
+      "Sí, una vez cumplidos los requisitos de edad y experiencia",
+      "No, hasta que pasen 2 años",
+      "Solo si ha aprobado todos los exámenes"
+    ],
+    "correcta": 0,
+    "libro": "V"
+  },
+  {
+    "id": 510,
+    "pregunta": "¿Qué prioridad tienen los vehículos de emergencia (ambulancias, bomberos, policía) en la vía?",
+    "opciones": [
+      "Prioridad de paso cuando están en servicio urgente con señales activadas",
+      "La misma prioridad que cualquier vehículo",
+      "Prioridad solo si llevan pacientes"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 511,
+    "pregunta": "¿Está permitido instalar luces especiales giratorias o intermitentes en un vehículo particular?",
+    "opciones": [
+      "No, solo en vehículos autorizados por los ministerios del Interior y FAR",
+      "Sí, si se usan en emergencias",
+      "Sí, con permiso del Ministerio del Transporte"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 512,
+    "pregunta": "¿Qué deben hacer los conductores al escuchar la sirena de un vehículo de emergencia?",
+    "opciones": [
+      "Facilitar el paso y si es necesario detenerse",
+      "Acelerar para no obstaculizar",
+      "Continuar igual, ellos tienen prioridad"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 513,
+    "pregunta": "¿Está permitido realizar carreras o competencias de velocidad en vías públicas?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, con autorización de la PNR",
+      "Sí, en autopistas fuera de hora pico"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 514,
+    "pregunta": "¿Cuál es la velocidad máxima a la salida de garajes, edificios o accesos a parqueos interiores?",
+    "opciones": [
+      "20 km/h",
+      "30 km/h",
+      "40 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 515,
+    "pregunta": "¿Está permitido que los vehículos de tracción animal circulen por autopistas?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, por el carril derecho",
+      "Sí, si llevan luces encendidas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 516,
+    "pregunta": "¿Qué luces deben llevar los vehículos de tracción animal para circular de noche?",
+    "opciones": [
+      "Una luz blanca o amarilla delantera y una luz roja trasera",
+      "Solo luces delanteras",
+      "Luces intermitentes en los laterales"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 517,
+    "pregunta": "¿Está prohibida la circulación de vehículos de tracción humana o animal que no cumplan las exigencias de luces?",
+    "opciones": [
+      "Sí, está prohibida",
+      "No, pueden circular igual",
+      "Solo de noche está prohibida"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 518,
+    "pregunta": "¿Es obligatorio el uso del cinturón de seguridad para el conductor y los pasajeros de un vehículo?",
+    "opciones": [
+      "Sí, es obligatorio",
+      "Solo para el conductor",
+      "Solo en carreteras y autopistas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 519,
+    "pregunta": "¿Es obligatorio el uso del casco protector para los conductores y pasajeros de motocicletas y ciclomotores?",
+    "opciones": [
+      "Sí, es obligatorio",
+      "Solo para el conductor",
+      "Solo en vías interurbanas"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 520,
+    "pregunta": "¿Puede una motocicleta transportar un pasajero menor de 7 años?",
+    "opciones": [
+      "Sí, con velocidad limitada a 40 km/h en rural y 30 km/h en urbana",
+      "No, está prohibido",
+      "Sí, sin restricciones"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 521,
+    "pregunta": "Los pasajeros de vehículos de carga con barandas inferiores a 120 centímetros deben:",
+    "opciones": [
+      "Permanecer sentados",
+      "Viajar de pie",
+      "Usar casco protector"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 522,
+    "pregunta": "Según el Glosario, ¿qué es 'zona de silencio'?",
+    "opciones": [
+      "Área de 60 metros antes y después de centros médicos donde no se debe tocar bocina",
+      "Zona donde está prohibido hablar",
+      "Área donde los vehículos deben circular sin motor"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 523,
+    "pregunta": "Según el Glosario, ¿qué es 'detención momentánea'?",
+    "opciones": [
+      "Parada voluntaria por el tiempo necesario para recoger o dejar personas o carga",
+      "Parada forzosa por accidente",
+      "Estacionamiento por menos de 5 minutos"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 524,
+    "pregunta": "Según el Glosario, ¿qué es 'calzada'?",
+    "opciones": [
+      "Parte de la vía destinada a la circulación de vehículos",
+      "La acera destinada a peatones",
+      "Toda la superficie de la vía"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 525,
+    "pregunta": "Según el Glosario, ¿qué es 'intersección'?",
+    "opciones": [
+      "Lugar donde confluyen dos o más vías",
+      "Cruce regulado por semáforo",
+      "Entrada a una autopista"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 526,
+    "pregunta": "Según el Glosario, ¿qué es 'mediana'?",
+    "opciones": [
+      "Franja de terreno entre ambas calzadas que las separa físicamente",
+      "Línea continua en el centro de la vía",
+      "Espacio para estacionar en el centro de la vía"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 527,
+    "pregunta": "Según el Glosario, ¿qué es 'baliza'?",
+    "opciones": [
+      "Dispositivo para señalizar temporalmente la vía",
+      "Luz de emergencia del vehículo",
+      "Señal vertical permanente"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 528,
+    "pregunta": "Según el Glosario, ¿qué es 'paso a nivel'?",
+    "opciones": [
+      "Cruce de una vía con una línea férrea al mismo nivel",
+      "Paso peatonal elevado",
+      "Intersección de dos vías al mismo nivel"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 529,
+    "pregunta": "Según el Glosario, ¿qué significa 'ceder el paso'?",
+    "opciones": [
+      "Obligación de detenerse o no continuar para permitir el paso a otro usuario",
+      "Derecho a pasar primero",
+      "Señal de advertencia"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 530,
+    "pregunta": "Según el Glosario, ¿qué es 'derecho de vía'?",
+    "opciones": [
+      "Franja de terreno destinada a la vía y sus instalaciones anexas",
+      "Prioridad de paso en una intersección",
+      "Permiso para circular por una vía"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 531,
+    "pregunta": "Según el Glosario, ¿qué es 'velocidad de diseño'?",
+    "opciones": [
+      "Velocidad máxima a la que se puede circular con seguridad en una vía",
+      "Velocidad recomendada en curvas",
+      "Velocidad mínima permitida"
+    ],
+    "correcta": 0,
+    "libro": "Glosario"
+  },
+  {
+    "id": 532,
+    "pregunta": "¿Está permitido reparar un vehículo en la calzada de una vía urbana?",
+    "opciones": [
+      "Solo si es por carácter urgente y por el tiempo indispensable",
+      "Sí, siempre que no obstruya el tránsito",
+      "No, en ningún caso"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 533,
+    "pregunta": "¿Está permitido estacionar en una acera o paseo peatonal?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si no obstruye el paso peatonal",
+      "Sí, por breve tiempo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 534,
+    "pregunta": "¿A qué distancia mínima de un hidrante está prohibido estacionar?",
+    "opciones": [
+      "Menos de 4 metros",
+      "Menos de 10 metros",
+      "Menos de 2 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 535,
+    "pregunta": "¿Está permitido estacionar frente a una entrada de garaje?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si se deja libre el paso peatonal",
+      "Sí, si es por breve tiempo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 536,
+    "pregunta": "¿Está permitido estacionar en un puente?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si hay espacio disponible",
+      "Sí, solo de día"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 537,
+    "pregunta": "¿Está permitido estacionar en los túneles?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si hay zona de emergencia",
+      "Sí, por breve tiempo"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 538,
+    "pregunta": "¿A qué distancia mínima de una intersección está prohibido estacionar?",
+    "opciones": [
+      "Menos de 10 metros antes y después",
+      "Menos de 5 metros antes y después",
+      "Menos de 20 metros antes y después"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 539,
+    "pregunta": "¿A qué distancia mínima de un paso a nivel está prohibido estacionar?",
+    "opciones": [
+      "Menos de 10 metros",
+      "Menos de 20 metros",
+      "Menos de 5 metros"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 540,
+    "pregunta": "¿Qué distancia mínima debe haber entre dos vehículos estacionados en línea?",
+    "opciones": [
+      "No menos de 50 centímetros",
+      "No menos de 30 centímetros",
+      "No menos de 1 metro"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 541,
+    "pregunta": "¿Está permitido estacionar en la parte destinada a la circulación en vías rurales?",
+    "opciones": [
+      "Solo por fuerza mayor como rotura o avería",
+      "Sí, en cualquier lugar",
+      "Sí, si no hay otra opción"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 542,
+    "pregunta": "¿Qué debe hacer un conductor ante la presencia de un peatón discapacitado que intenta cruzar?",
+    "opciones": [
+      "Moderar la marcha o detenerse para permitirle el cruce",
+      "Tocar la bocina para advertirle",
+      "Continuar igual, él debe esperar"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 543,
+    "pregunta": "¿Está prohibido fumar en vehículos que transportan sustancias peligrosas?",
+    "opciones": [
+      "Sí, está prohibido",
+      "No, si el conductor no fuma",
+      "Sí, pero solo en estaciones de servicio"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 544,
+    "pregunta": "¿Está permitido trasladar pasajeros en el interior de un remolque?",
+    "opciones": [
+      "No, está prohibido",
+      "Sí, si es por poco tiempo",
+      "Sí, si los pasajeros van sentados"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 545,
+    "pregunta": "¿Qué velocidad máxima deben respetar las motocicletas que transportan pasajero menor de 7 años en zona rural?",
+    "opciones": [
+      "40 km/h",
+      "30 km/h",
+      "50 km/h"
+    ],
+    "correcta": 0,
+    "libro": "III"
+  },
+  {
+    "id": 546,
+    "pregunta": "¿En qué casos puede un conductor usar la bocina dentro de la zona de silencio?",
+    "opciones": [
+      "Solo para evitar un accidente",
+      "En ningún caso",
+      "Siempre que sea necesario"
+    ],
+    "correcta": 0,
+    "libro": "III"
   }
 ];
