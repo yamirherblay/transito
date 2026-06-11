@@ -273,7 +273,7 @@ body {
 }
 .result-row.ok {
   border-left-color: var(--success);
-  display: none;
+  background: rgba(40, 167, 69, 0.05);
 }
 .result-row.err { border-left-color: var(--danger); }
 .result-row.none { border-left-color: var(--text-muted); }
