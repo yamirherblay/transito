@@ -33,6 +33,7 @@
 
   <link rel="icon" type="image/png" href="licentest.png">
   <link rel="canonical" href="https://licentest-cuba.vercel.app">
+  <link rel="manifest" href="manifest.json">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -51,6 +52,9 @@
           <span class="ok"><span class="material-symbols-outlined">check_circle</span> 0</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> 0</span>
         </div>
         <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
+        <button class="install-btn hidden" id="install-btn" onclick="installApp()">
+          <span class="material-symbols-outlined">download</span> Usar sin internet
+        </button>
       </div>
     </div>
 
@@ -102,6 +106,18 @@
         <p style="margin-bottom:12px;">Cada examen son 20 preguntas. Cada pregunta vale 5 puntos. Aprobado &ge; 70.</p>
         <p style="margin-bottom:20px;">Buena suerte.</p>
         <button class="btn" onclick="closeHelp()">Cerrar</button>
+      </div>
+    </div>
+
+    <!-- MODAL INSTALL iOS -->
+    <div id="modal-install" onclick="if(event.target===this)closeInstallModal()">
+      <div class="modal-box">
+        <h2 style="font-size:1.3rem;margin-bottom:12px;">Usar sin internet</h2>
+        <p style="margin-bottom:8px;">Para guardar LICENTEST en tu dispositivo y usarlo sin conexión:</p>
+        <p style="margin-bottom:6px;text-align:left;">1. Toca Compartir <span class="material-symbols-outlined" style="font-size:1.2rem;">ios_share</span></p>
+        <p style="margin-bottom:6px;text-align:left;">2. Desplázate y toca <strong>Agregar a Pantalla de Inicio</strong></p>
+        <p style="margin-bottom:20px;text-align:left;">3. Confirma</p>
+        <button class="btn" onclick="closeInstallModal()">Entendido</button>
       </div>
     </div>
 

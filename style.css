@@ -28,7 +28,7 @@
   --text: #e0e0e0;
   --text-muted: #8888aa;
   --text-soft: #aaaacc;
-  --text-dim: #7777aa;
+  --text-dim: #8888bb;
   --primary: #818cf8;
   --primary-light: #1e1e4a;
   --primary-hover: #6366f1;
@@ -119,7 +119,7 @@ body::before {
 }
 
 /* Modals */
-#modal-about, #modal-close, #modal-help {
+#modal-about, #modal-close, #modal-help, #modal-install {
   display: none;
   position: fixed;
   inset: 0;
@@ -128,7 +128,7 @@ body::before {
   justify-content: center;
   z-index: 200;
 }
-#modal-about.visible, #modal-close.visible, #modal-help.visible { display: flex; }
+#modal-about.visible, #modal-close.visible, #modal-help.visible, #modal-install.visible { display: flex; }
 #modal-about .modal-box h2 { margin-bottom: 4px; }
 
 /* Home */
@@ -163,6 +163,8 @@ body::before {
   transition: background .2s;
 }
 .btn:hover { background: var(--primary-hover); }
+[data-theme="dark"] .btn { background: #4f46e5; }
+[data-theme="dark"] .btn:hover { background: #4338ca; }
 .btn-sm {
   padding: 8px 20px;
   font-size: 0.9rem;
@@ -237,6 +239,22 @@ body::before {
   margin-top: 6px;
 }
 .stats-reset:hover { color: var(--danger); }
+
+.install-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+  padding: 10px 24px;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+  background: transparent;
+  color: var(--primary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background .2s;
+}
+.install-btn:hover { background: var(--primary-light); }
 
 /* Exam header */
 .exam-header {

@@ -2,6 +2,7 @@ let allQuestions = [];
 let comboQuestions = [];
 let examQuestions = [];
 let currentPage = 0;
+let deferredPrompt;
 const P = 5;
 const TOTAL = 20;
 const COMBO_COUNT = 4;
@@ -264,5 +265,24 @@ function closeAbout() {
   document.getElementById('modal-about').classList.remove('visible');
 }
 
+/* Install PWA */
+function installApp() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+  } else {
+    document.getElementById('modal-install').classList.add('visible');
+  }
+}
+function closeInstallModal() {
+  document.getElementById('modal-install').classList.remove('visible');
+}
+
 applyTheme();
 updateStatsUI();
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  document.getElementById('install-btn').classList.remove('hidden');
+});
