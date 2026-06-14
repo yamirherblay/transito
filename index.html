@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="google-site-verification" content="cf0CyZOC_LQ8NhSDMxRCQ6HP8izYKVsbSvxFKbY1ceE" />
   <title>LICENTEST — Examen Teórico de Conducción · Ley 109 Cuba</title>
 
   <meta name="description" content="Prepárate para el examen teórico de conducción en Cuba con LICENTEST. 546 preguntas basadas en la Ley 109 · Código de Seguridad Vial. Simulacros aleatorios, retroalimentación detallada y estadísticas.">
@@ -44,9 +44,8 @@
       <div class="hero">
         <img src="licentest.png" alt="LICENTEST" style="width:180px;height:180px;margin-bottom:8px;">
         <h1>LICENTEST</h1>
-        <p class="sub">Examen Teórico de Conducción en Cuba</p>
-        <div class="badge">Basado en la Ley 109 · Código de Seguridad Vial</div>
-        <p class="desc">20 preguntas por examen · 3 opciones · 5 pts c/u · Aprobado &ge; 70</p>
+        <p class="sub">Examenes de Prueba para Teórico de Conducción en Cuba</p>
+
         <button class="btn" onclick="startExam()">Comenzar</button>
         <div class="stats" id="stats-display">
           <span class="ok"><span class="material-symbols-outlined">check_circle</span> 0</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> 0</span>
@@ -95,6 +94,17 @@
       </div>
     </div>
 
+    <!-- MODAL HELP -->
+    <div id="modal-help" onclick="if(event.target===this)closeHelp()">
+      <div class="modal-box">
+        <h2 style="font-size:1.3rem;margin-bottom:12px;">¿Cómo funciona?</h2>
+        <p style="margin-bottom:12px;">Son preguntas aleatorias de un banco de más de 500 preguntas basadas en la Ley 109.</p>
+        <p style="margin-bottom:12px;">Cada examen son 20 preguntas. Cada pregunta vale 5 puntos. Aprobado &ge; 70.</p>
+        <p style="margin-bottom:20px;">Buena suerte.</p>
+        <button class="btn" onclick="closeHelp()">Cerrar</button>
+      </div>
+    </div>
+
     <!-- MODAL CLOSE -->
     <div id="modal-close">
       <div class="modal-box">
@@ -136,6 +146,10 @@
     <div class="tab" id="tab-ley" onclick="downloadLey()">
       <span class="tab-icon"><span class="material-symbols-outlined">description</span></span>
       <span class="tab-label">Ley 109</span>
+    </div>
+    <div class="tab" onclick="openHelp()">
+      <span class="tab-icon"><span class="material-symbols-outlined">help</span></span>
+      <span class="tab-label">Ayuda</span>
     </div>
     <div class="tab" id="tab-info" onclick="openAbout()">
       <span class="tab-icon"><span class="material-symbols-outlined">info</span></span>

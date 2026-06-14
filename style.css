@@ -118,8 +118,8 @@ body::before {
   padding-bottom: calc(56px + env(safe-area-inset-bottom, 0) + 20px);
 }
 
-/* About modal */
-#modal-about {
+/* Modals */
+#modal-about, #modal-close, #modal-help {
   display: none;
   position: fixed;
   inset: 0;
@@ -128,7 +128,7 @@ body::before {
   justify-content: center;
   z-index: 200;
 }
-#modal-about.visible { display: flex; }
+#modal-about.visible, #modal-close.visible, #modal-help.visible { display: flex; }
 #modal-about .modal-box h2 { margin-bottom: 4px; }
 
 /* Home */
@@ -140,7 +140,7 @@ body::before {
 }
 .hero { text-align: center; padding: 20px; }
 .hero h1 { font-size: 2rem; color: var(--primary); margin-bottom: 8px; }
-.hero .sub { font-size: 1.1rem; color: var(--text-soft); margin-bottom: 4px; }
+.hero .sub { font-size: 1.1rem; color: var(--text-soft); margin-bottom: 8px; }
 .hero .desc { font-size: 1rem; color: var(--text-muted); margin-bottom: 28px; }
 .hero .badge {
   display: inline-block;
@@ -149,7 +149,7 @@ body::before {
   padding: 4px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .btn {
   display: inline-block;
@@ -407,16 +407,6 @@ body::before {
 .r-label { font-size: 0.85rem; color: var(--text-muted); }
 .r-correct, .r-your { font-size: 0.9rem; margin-top: 2px; }
 
-/* Modal */
-#modal-close {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: var(--modal-overlay);
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-}
 .modal-box {
   background: var(--card);
   border-radius: 12px;

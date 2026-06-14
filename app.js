@@ -47,6 +47,8 @@ function resetStats() {
   if (!confirm('\u00BFSeguro de reiniciar las estad\u00EDsticas?')) return;
   localStorage.setItem('aprobados', '0');
   localStorage.setItem('desaprobados', '0');
+  localStorage.setItem('ultimo-score', '0');
+  localStorage.setItem('ultimo-passed', '0');
   updateStatsUI();
 }
 
@@ -245,6 +247,13 @@ function downloadLey() {
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
+}
+
+function openHelp() {
+  document.getElementById('modal-help').classList.add('visible');
+}
+function closeHelp() {
+  document.getElementById('modal-help').classList.remove('visible');
 }
 
 function openAbout() {
