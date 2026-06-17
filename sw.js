@@ -2,6 +2,7 @@ const CACHE = 'licentest-v1';
 const ASSETS = [
   '/', '/style.css', '/app.js', '/preguntas.js', '/preguntas_combo.js',
   '/licentest.png', '/icon-192.png', '/icon-512.png',
+  '/material-symbols.woff2',
   '/Ley109.pdf', '/robots.txt', '/sitemap.xml'
 ];
 
