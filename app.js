@@ -77,11 +77,11 @@ function show(id) {
 }
 
 function closeExam() {
-  document.getElementById('modal-close').style.display = 'flex';
+  document.getElementById('modal-close').classList.add('visible');
 }
 
 function confirmClose(yes) {
-  document.getElementById('modal-close').style.display = 'none';
+  document.getElementById('modal-close').classList.remove('visible');
   if (yes) show('home');
 }
 
@@ -269,6 +269,13 @@ function openAbout() {
 
 function closeAbout() {
   document.getElementById('modal-about').classList.remove('visible');
+}
+
+function openLey() {
+  document.getElementById('modal-ley').classList.add('visible');
+}
+function closeLey() {
+  document.getElementById('modal-ley').classList.remove('visible');
 }
 
 /* Install PWA */

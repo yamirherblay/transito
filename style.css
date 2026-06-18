@@ -38,8 +38,8 @@
   --lime: #65a30d;
 
   --bg: #f1f5f9;
-  --card: #ffffff;
-  --card-hover: #f8fafc;
+  --card: #f8fafc;
+  --card-hover: #f1f5f9;
   --text: #1e293b;
   --text-muted: #64748b;
   --text-soft: #475569;
@@ -152,7 +152,7 @@ body {
   right: 0;
   display: flex;
   height: 56px;
-  background: var(--card);
+  background: var(--bg);
   border-top: 1px solid var(--border);
   z-index: 50;
   padding-bottom: env(safe-area-inset-bottom, 0);
@@ -181,16 +181,22 @@ body {
 }
 
 /* Modals */
-#modal-about, #modal-close, #modal-help, #modal-install {
-  display: none;
+#modal-about, #modal-close, #modal-help, #modal-install, #modal-ley {
   position: fixed;
   inset: 0;
   background: var(--modal-overlay);
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: 200;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
 }
-#modal-about.visible, #modal-close.visible, #modal-help.visible, #modal-install.visible { display: flex; }
+#modal-about.visible, #modal-close.visible, #modal-help.visible, #modal-install.visible, #modal-ley.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 .modal-box {
   background: var(--card);
@@ -199,6 +205,14 @@ body {
   max-width: 380px;
   text-align: center;
   box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  transition-delay: 0.05s;
+}
+.visible .modal-box {
+  opacity: 1;
+  transform: translateY(0);
 }
 .modal-box p { margin-bottom: 16px; font-size: 0.95rem; line-height: 1.6; color: var(--text-soft); }
 .modal-box h2 { font-size: 1.25rem; margin-bottom: 12px; font-family: 'Archivo Black', sans-serif; letter-spacing: 0.02em; }
@@ -567,14 +581,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 0;
+  padding: 14px 0;
   border-top: 1px solid var(--border);
-  margin-top: 8px;
+  margin-top: 16px;
 }
 .exam-footer .page-info {
   font-size: 0.8rem;
   font-family: 'JetBrains Mono', monospace;
   color: var(--text-dim);
+  flex-shrink: 0;
+}
+.exam-footer .btn-eval {
+  padding: 8px 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 
 /* Results */
@@ -623,6 +643,94 @@ body {
 .sub { font-size: 0.85rem; color: var(--text-muted); }
 
 .hidden { display: none !important; }
+
+/* Book legend */
+.book-legend {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 16px;
+  text-align: left;
+  margin: 16px 0 8px;
+  padding: 12px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+}
+.legend-label {
+  grid-column: 1 / -1;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-bottom: 2px;
+}
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-soft);
+}
+.swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+/* Ley modal */
+.ley-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.ley-meta {
+  font-size: 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+.ley-book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.ley-book-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.ley-book-item:last-child { border-bottom: none; }
+.ley-book-num {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  min-width: 18px;
+}
+.ley-book-name {
+  flex: 1;
+  color: var(--text-soft);
+}
+.ley-book-arts {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.ley-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
 
 :focus-visible {
   outline: 2px solid var(--primary);
