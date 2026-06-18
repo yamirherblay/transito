@@ -26,7 +26,7 @@
   <meta name="twitter:image" content="https://licentest-cuba.vercel.app/licentest.png">
 
   <!-- PWA / iOS -->
-  <meta name="theme-color" content="#1a3a6b">
+  <meta name="theme-color" content="#0b1d3a">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="LICENTEST">
@@ -34,7 +34,9 @@
   <link rel="icon" type="image/png" href="licentest.png">
   <link rel="canonical" href="https://licentest-cuba.vercel.app">
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik:wght@300..900&family=JetBrains+Mono:wght@400..700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -43,15 +45,32 @@
     <!-- HOME -->
     <div id="screen-home">
       <div class="hero">
-        <img src="licentest.png" alt="LICENTEST" style="width:180px;height:180px;margin-bottom:8px;">
+        <img src="licentest.png" alt="LICENTEST" class="hero-logo" width="100" height="100">
         <h1>LICENTEST</h1>
-        <p class="sub">Examenes de Prueba para Teórico de Conducción en Cuba</p>
+        <p class="hero-sub">Prepárate para el examen teórico de conducción en Cuba</p>
 
-        <button class="btn" onclick="startExam()">Comenzar</button>
-        <div class="stats" id="stats-display">
-          <span class="ok"><span class="material-symbols-outlined">check_circle</span> 0</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> 0</span>
+        <div class="preview-card">
+          <div class="preview-head">
+            <span class="book-badge">Libro I</span>
+          </div>
+          <p class="preview-text">¿Cuántos artículos tiene el Código de Seguridad Vial y en cuántos libros está estructurado?</p>
+          <div class="preview-options">
+            <div class="preview-opt"><span class="opt-letter">A)</span> 324 artículos distribuidos en siete libros</div>
+            <div class="preview-opt"><span class="opt-letter">B)</span> 300 artículos distribuidos en cinco libros</div>
+            <div class="preview-opt"><span class="opt-letter">C)</span> 350 artículos distribuidos en ocho libros</div>
+          </div>
+          <div class="preview-correct">Respuesta correcta: <strong>A</strong></div>
         </div>
-        <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
+
+        <button class="btn btn-start" onclick="startExam()">Comenzar examen</button>
+
+        <div class="stats-wrap">
+          <div class="stats" id="stats-display">
+            <span class="ok"><span class="material-symbols-outlined">check_circle</span> 0</span> <span class="ko"><span class="material-symbols-outlined">cancel</span> 0</span>
+          </div>
+          <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
+        </div>
+
         <button class="install-btn hidden" id="install-btn" onclick="installApp()">
           <span class="material-symbols-outlined">download</span> Usar sin internet
         </button>
@@ -89,8 +108,8 @@
         <div class="score" id="result-score">0/100</div>
         <div id="result-pass" class="pass">APROBADO</div>
         <div class="result-stats" id="result-stats"></div>
-        <div class="sub">PARA RETROALIMENTACION</div>
-        <div class="sub">Se muestran las respuestas correctas e incorrectas y sin responder</div>
+        <div class="sub">Revisa tus respuestas</div>
+        <div class="sub">Cada pregunta muestra la opción correcta y la que elegiste</div>
       </div>
       <div id="result-details"></div>
       <div style="text-align:center;padding:24px 0">
@@ -101,10 +120,10 @@
     <!-- MODAL HELP -->
     <div id="modal-help" onclick="if(event.target===this)closeHelp()">
       <div class="modal-box">
-        <h2 style="font-size:1.3rem;margin-bottom:12px;">¿Cómo funciona?</h2>
-        <p style="margin-bottom:12px;">Son preguntas aleatorias de un banco de más de 500 preguntas basadas en la Ley 109.</p>
-        <p style="margin-bottom:12px;">Cada examen son 20 preguntas. Cada pregunta vale 5 puntos. Aprobado &ge; 70.</p>
-        <p style="margin-bottom:20px;">Buena suerte.</p>
+        <h2>¿Cómo funciona?</h2>
+        <p>El banco tiene 546 preguntas basadas en los 7 libros de la Ley 109. Cada examen genera 20 preguntas al azar.</p>
+        <p>Cada pregunta vale 5 puntos. Para aprobar necesitas 70.</p>
+        <p>Ve a tu ritmo. No hay límite de tiempo.</p>
         <button class="btn" onclick="closeHelp()">Cerrar</button>
       </div>
     </div>

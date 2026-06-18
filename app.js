@@ -94,11 +94,14 @@ function shuffle(a) {
   return b;
 }
 
+const BOOK_COLORS = { 'I': '#0ea5e9', 'II': '#f59e0b', 'III': '#10b981', 'IV': '#8b5cf6', 'V': '#f43f5e', 'VI': '#06b6d4', 'VII': '#65a30d' };
+
 function shuffleOpts(q) {
   const idx = shuffle([0,1,2]);
   return {
     id: q.id,
     pregunta: q.pregunta,
+    libro: q.libro || null,
     shuffled: idx.map(i => q.opciones[i]),
     correct: idx.indexOf(q.correcta),
     selected: null
@@ -126,6 +129,7 @@ function render() {
     const num = qIdx + 1;
     const div = document.createElement('div');
     div.className = 'question';
+    if (q.libro) div.setAttribute('data-book', q.libro);
     const pEl = document.createElement('div');
     pEl.className = 'q-num';
     pEl.textContent = num + '. ' + q.pregunta;
@@ -164,13 +168,15 @@ function render() {
   document.getElementById('progress-bar').style.width = (answered / TOTAL * 100) + '%';
   document.getElementById('progress-text').textContent = answered + '/' + TOTAL;
 
-  const dots = document.getElementById('exam-dots');
-  dots.innerHTML = '';
+  const road = document.getElementById('exam-dots');
+  road.innerHTML = '';
+  road.classList.add('road-track');
+
   examQuestions.forEach((q, i) => {
     const dot = document.createElement('span');
     dot.className = 'dot' + (q.selected !== null ? ' done' : '');
     dot.textContent = i + 1;
-    dots.appendChild(dot);
+    road.appendChild(dot);
   });
 }
 
