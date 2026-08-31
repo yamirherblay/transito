@@ -112,6 +112,13 @@
         <div class="sub">Cada pregunta muestra la opción correcta y la que elegiste</div>
       </div>
       <div id="result-details"></div>
+      <div class="share-card" id="share-card">
+        <div class="share-title"><span class="material-symbols-outlined">emoji_events</span> Comparte tu puntuación</div>
+        <p class="share-sub">Invita a un amigo y reta a superarla en LICENTEST</p>
+        <button class="share-btn" onclick="shareResult()">
+          <span class="material-symbols-outlined">share</span> Compartir con un amigo
+        </button>
+      </div>
       <div style="text-align:center;padding:24px 0">
         <button class="btn" onclick="newExam()">Nuevo Examen</button>
       </div>
@@ -247,6 +254,11 @@
       <span class="tab-icon"><span class="material-symbols-outlined">info</span></span>
       <span class="tab-label">Acerca de</span>
     </div>
+  </div>
+
+  <!-- TOAST -->
+  <div id="toast" class="toast">
+    <span class="material-symbols-outlined">link</span> Enlace copiado
   </div>
 
   <script src="preguntas.js"></script>

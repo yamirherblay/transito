@@ -642,7 +642,77 @@ body {
 
 .sub { font-size: 0.85rem; color: var(--text-muted); }
 
-.hidden { display: none !important; }
+/* Share card (resultados) */
+.share-card {
+  text-align: center;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin: 6px 0 0;
+  box-shadow: var(--shadow);
+  display: none;
+}
+.share-card.show { display: block; }
+.share-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.share-title .material-symbols-outlined { color: var(--amber); }
+.share-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+.share-btn:hover { border-color: var(--primary); background: var(--primary-light); transform: translateY(-1px); }
+.share-btn .material-symbols-outlined { font-size: 1.1rem; }
+
+/* Toast */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(64px + env(safe-area-inset-bottom, 0));
+  transform: translateX(-50%) translateY(12px);
+  background: var(--primary);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 24px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: var(--shadow-lg);
+  z-index: 300;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  font-family: 'Rubik', sans-serif;
+}
+.toast.visible { opacity: 1; transform: translateX(-50%) translateY(0); }
+.toast .material-symbols-outlined { font-size: 1.1rem; }
 
 /* Book legend */
 .book-legend {

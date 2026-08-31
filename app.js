@@ -240,10 +240,12 @@ function evaluar() {
     list.appendChild(row);
   });
   show('results');
+  document.getElementById('share-card').classList.add('show');
   window.scrollTo(0, 0);
 }
 
 function newExam() {
+  document.getElementById('share-card').classList.remove('show');
   show('home');
 }
 
@@ -289,6 +291,39 @@ function installApp() {
 }
 function closeInstallModal() {
   document.getElementById('modal-install').classList.remove('visible');
+}
+
+/* Share result */
+function shareResult() {
+  const score = document.getElementById('result-score').textContent;
+  const url = location.href;
+  const title = 'LICENTEST \u2014 Examen te\u00F3rico Ley 109 Cuba';
+  const text = 'He logrado ' + score + ' en LICENTEST (Ley 109 Cuba). \u00BFPuedes superar mi puntuaci\u00F3n?';
+  if (navigator.share) {
+    navigator.share({ title: title, text: text, url: url }).catch(function() {});
+  } else {
+    copiarEnlace(url);
+  }
+}
+
+function copiarEnlace(url) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(showToast).catch(showToast);
+  } else {
+    const ta = document.createElement('textarea');
+    ta.value = url;
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); showToast(); } catch (e) { showToast(); }
+    document.body.removeChild(ta);
+  }
+}
+
+function showToast() {
+  const t = document.getElementById('toast');
+  t.classList.add('visible');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(function() { t.classList.remove('visible'); }, 2200);
 }
 
 applyTheme();
