@@ -280,6 +280,12 @@ function closeLey() {
   document.getElementById('modal-ley').classList.remove('visible');
 }
 
+/* Alianza VialCuba */
+const VIALCUBA_URL = 'https://vialcuba-pages.intenave.com/?utm_source=licentest&utm_medium=referral&utm_campaign=alianza-estudio';
+function openVialCuba() {
+  window.open(VIALCUBA_URL, '_blank', 'noopener');
+}
+
 /* Install PWA */
 function installApp() {
   if (deferredPrompt) {

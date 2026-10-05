@@ -689,6 +689,52 @@ body {
 .share-btn:hover { border-color: var(--primary); background: var(--primary-light); transform: translateY(-1px); }
 .share-btn .material-symbols-outlined { font-size: 1.1rem; }
 
+/* Ally card (alianza VialCuba) */
+.ally-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  text-decoration: none;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--emerald);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin: 18px 0 4px;
+  box-shadow: var(--shadow);
+  color: inherit;
+  transition: border-color 0.2s, background 0.2s, transform 0.15s;
+}
+.ally-card:hover { border-color: var(--emerald); background: var(--card-hover); transform: translateY(-1px); }
+.ally-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--emerald);
+  flex-shrink: 0;
+}
+.ally-icon .material-symbols-outlined { font-size: 1.4rem; }
+.ally-body { display: flex; flex-direction: column; gap: 2px; flex: 1; min-width: 0; }
+.ally-kicker {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--emerald);
+}
+.ally-title { font-size: 0.95rem; font-weight: 600; color: var(--text); }
+.ally-sub { font-size: 0.82rem; line-height: 1.45; color: var(--text-muted); }
+.ally-sub strong { color: var(--text-soft); }
+.ally-arrow { color: var(--text-dim); display: flex; flex-shrink: 0; }
+.ally-card:hover .ally-arrow { color: var(--emerald); }
+.ally-link { color: var(--emerald); font-weight: 600; text-decoration: none; }
+.ally-link:hover { text-decoration: underline; }
+
 /* Toast */
 .toast {
   position: fixed;
@@ -812,6 +858,8 @@ body {
   .hero h1 { font-size: 1.8rem; }
   .hero-logo { width: 80px; height: 80px; }
   .btn { padding: 12px 36px; font-size: 0.95rem; }
+  .tab-label { font-size: 0.7rem; }
+  .ally-card { padding: 12px; gap: 10px; }
   .dot { width: 16px; height: 16px; font-size: 0.55rem; }
   #exam-dots { margin: 0 4px; }
   #exam-dots::before { left: 10px; right: 10px; }

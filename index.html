@@ -71,6 +71,16 @@
           <button class="stats-reset" onclick="resetStats()">Reiniciar estadísticas</button>
         </div>
 
+        <a class="ally-card" href="https://vialcuba-pages.intenave.com/?utm_source=licentest&utm_medium=referral&utm_campaign=alianza-estudio" target="_blank" rel="noopener">
+          <span class="ally-icon"><span class="material-symbols-outlined">school</span></span>
+          <span class="ally-body">
+            <span class="ally-kicker">También te puede servir</span>
+            <span class="ally-title">¿Necesitas repasar la teoría?</span>
+            <span class="ally-sub">Estudia por temas, señales y glosario en <strong>VialCuba</strong>, nuestra plataforma aliada</span>
+          </span>
+          <span class="ally-arrow"><span class="material-symbols-outlined">open_in_new</span></span>
+        </a>
+
         <button class="install-btn hidden" id="install-btn" onclick="installApp()">
           <span class="material-symbols-outlined">download</span> Usar sin internet
         </button>
@@ -169,6 +179,9 @@
         <p style="margin-bottom:16px;">
           <a href="mailto:yamir.herblay@gmail.com" style="color:var(--primary);text-decoration:none;">yamir.herblay@gmail.com</a>
         </p>
+        <hr style="border:none;border-top:1px solid var(--border);margin-bottom:16px;">
+        <p style="font-size:0.8rem;margin-bottom:4px;">📚 <strong>Aliado de estudio</strong></p>
+        <p style="font-size:0.8rem;margin-bottom:16px;">¿Necesitas repasar la teoría? Estudia en <a class="ally-link" href="https://vialcuba-pages.intenave.com/?utm_source=licentest&utm_medium=referral&utm_campaign=alianza-estudio" target="_blank" rel="noopener">VialCuba · Código Vial Cuba</a></p>
         <p style="font-size:0.75rem;color:var(--text-muted);margin-bottom:20px;">Versión 1.0</p>
         <button class="btn" onclick="closeAbout()">Cerrar</button>
       </div>
@@ -245,6 +258,10 @@
     <div class="tab" id="tab-ley" onclick="openLey()">
       <span class="tab-icon"><span class="material-symbols-outlined">description</span></span>
       <span class="tab-label">Ley 109</span>
+    </div>
+    <div class="tab" id="tab-estudiar" onclick="openVialCuba()">
+      <span class="tab-icon"><span class="material-symbols-outlined">school</span></span>
+      <span class="tab-label">Estudiar</span>
     </div>
     <div class="tab" onclick="openHelp()">
       <span class="tab-icon"><span class="material-symbols-outlined">help</span></span>
